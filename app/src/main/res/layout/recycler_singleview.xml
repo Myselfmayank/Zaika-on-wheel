@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:elevation="10dp">
+
+        <RelativeLayout
+            android:id="@+id/restaurantPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/restaurantLogo"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/dominos"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/restaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="97dp"
+                android:textColor="#101010"
+                android:textStyle="bold"
+                android:includeFontPadding="false"
+                android:text="Domino's Pizza"
+                android:layout_marginTop="1.8dp"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/restDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/restaurantName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="99dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+              android:layout_alignParentLeft="true"
+                android:text="Pizza,Fast Food"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.0"
+                android:layout_alignParentRight="true"
+                android:layout_margin="3dp"
+                android:padding="4.5dp"
+                android:textColor="#ffffff"
+                android:background="#24C324"/>
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+</LinearLayout>

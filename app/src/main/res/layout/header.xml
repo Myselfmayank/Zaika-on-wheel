@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="207dp"
+    android:background="@color/colorgray"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="12.7dp">
+
+    <ImageView
+        android:layout_marginTop="2.5dp"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:src="@drawable/header"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:includeFontPadding="false"
+        android:text="Zaika On Wheel"
+        android:textColor="@color/theme"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amarante"
+        android:text="A Click away from your doorstep"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

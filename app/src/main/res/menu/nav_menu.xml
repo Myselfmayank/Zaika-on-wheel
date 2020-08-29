@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_icons8_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_box"
+            android:title="Profile" />
+
+
+        <item
+            android:id="@+id/nav_goOut"
+            android:icon="@drawable/go_out"
+            android:title="Dining Out" />
+
+        <item
+            android:id="@+id/logOut"
+            android:title="Logout"
+            android:icon="@drawable/log"/>
+
+    </group>
+
+
+
+        <item android:title="Food orders">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Bookmarks"
+                    android:icon="@drawable/bookmark"
+                    android:title="Bookmarks" />
+
+                <item
+                    android:id="@+id/Notification"
+                    android:icon="@drawable/notification"
+                    android:title="Notification" />
+
+                <item
+                    android:id="@+id/Fav_orders"
+                    android:icon="@drawable/fav"
+                    android:title="Favourite Orders" />
+
+
+                <item
+                    android:id="@+id/Previous"
+                    android:icon="@drawable/ic_baseline_description_48"
+                    android:title="Previous Orders" />
+
+                </group>
+
+            </menu>
+
+        </item>
+
+
+    <item android:title="Communication">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/contactUs"
+                android:icon="@drawable/contact_us"
+                android:title="Contact Us" />
+
+
+            <item
+                android:id="@+id/RateUs"
+                android:icon="@drawable/rate_us"
+                android:title="Rate Us" />
+
+
+        </menu>
+
+    </item>
+
+</menu>
